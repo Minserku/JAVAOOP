@@ -1,0 +1,17 @@
+
+public class MyOOP {
+
+	public static void main(String[] args) {
+		//..
+		printA();
+		printA();
+		
+	}
+
+	private static void printA() {
+		System.out.println("------");
+		System.out.println("A");
+		System.out.println("A");
+	}
+
+}

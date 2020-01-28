@@ -1,0 +1,27 @@
+
+public class MyOOP {
+
+	public static void main(String[] args) {
+		//..
+		String delimiter = "----";
+		printA(delimiter);
+		printA(delimiter);
+		delimiter = "****";
+		printB(delimiter);
+		printB(delimiter);
+		
+	}
+
+	private static void printA(String delimiter) {
+		System.out.println(delimiter);
+		System.out.println("A");
+		System.out.println("A");
+	}
+	
+	private static void printB(String delimiter) {
+		System.out.println(delimiter);
+		System.out.println("B");
+		System.out.println("B");
+	}
+
+}
